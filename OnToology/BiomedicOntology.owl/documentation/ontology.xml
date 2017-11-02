@@ -1,0 +1,605 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#"
+     xml:base="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#HDL-cholesterol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#HDL-cholesterol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#LDL-cholesterol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#LDL-cholesterol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#albumin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#albumin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#bilirubin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#bilirubin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#brain -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#brain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#calcium -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#calcium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#cigarette -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#cigarette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#heart -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#heart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#individual -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#individual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#potassium -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#potassium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#sodium -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#sodium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#triglyceride -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#triglyceride">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,51 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:organization" "base:uric_acid" "base:liver_function_parameters" "base:energy_drink" "base:Medicine" "base:triglyceride" "base:organ" "base:Chemical_compound" "base:individual" "base:drug" "base:Disease" "base:Plasma_electrolytes" "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST)" "base:human" "base:taurine" "base:sodium" "base:brain" "base:Biology" "base:LDL-cholesterol" "base:alcohol" "base:water" "base:caffeine" "base:group" "base:bilirubin" "base:albumin" "base:HDL-cholesterol" "base:calcium" "base:carboydrates" "base:vitamin" "base:Plasma_lipids" "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB)" "base:fatigue" "base:creatinine" "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV)" "base:animal" "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC)" "base:hypertension" "base:potassium" "base:liver" "base:mammal" "base:urea" "base:experiment" "base:Haematological_parameters" "base:rat" "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)" "base:heart" "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP)" "base:cigarette" ; /*classes style*/
+	"base:sodium" -> "base:Plasma_electrolytes" [ label = "rdfs:subClassOf" ];
+	"base:water" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:liver_function_parameters" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:rat" -> "base:mammal" [ label = "rdfs:subClassOf" ];
+	"base:potassium" -> "base:Plasma_electrolytes" [ label = "rdfs:subClassOf" ];
+	"base:taurine" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:carboydrates" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:uric_acid" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:individual" -> "base:organization" [ label = "rdfs:subClassOf" ];
+	"base:liver" -> "base:organ" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP)" -> "base:liver_function_parameters" [ label = "rdfs:subClassOf" ];
+	"base:organ" -> "base:Biology" [ label = "rdfs:subClassOf" ];
+	"base:albumin" -> "base:liver_function_parameters" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB)" -> "base:Haematological_parameters" [ label = "rdfs:subClassOf" ];
+	"base:animal" -> "base:Biology" [ label = "rdfs:subClassOf" ];
+	"base:urea" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:experiment" -> "base:Medicine" [ label = "rdfs:subClassOf" ];
+	"base:triglyceride" -> "base:Plasma_lipids" [ label = "rdfs:subClassOf" ];
+	"base:cigarette" -> "base:drug" [ label = "rdfs:subClassOf" ];
+	"base:Disease" -> "base:Medicine" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)" -> "base:liver_function_parameters" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST)" -> "base:liver_function_parameters" [ label = "rdfs:subClassOf" ];
+	"base:energy_drink" -> "base:drug" [ label = "rdfs:subClassOf" ];
+	"base:Plasma_electrolytes" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:vitamin" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:alcohol" -> "base:drug" [ label = "rdfs:subClassOf" ];
+	"base:creatinine" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:Chemical_compound" -> "base:Biology" [ label = "rdfs:subClassOf" ];
+	"base:hypertension" -> "base:Disease" [ label = "rdfs:subClassOf" ];
+	"base:drug" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:human" -> "base:mammal" [ label = "rdfs:subClassOf" ];
+	"base:group" -> "base:organization" [ label = "rdfs:subClassOf" ];
+	"base:caffeine" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:Plasma_lipids" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+	"base:HDL-cholesterol" -> "base:Plasma_lipids" [ label = "rdfs:subClassOf" ];
+	"base:mammal" -> "base:animal" [ label = "rdfs:subClassOf" ];
+	"base:bilirubin" -> "base:liver_function_parameters" [ label = "rdfs:subClassOf" ];
+	"base:LDL-cholesterol" -> "base:Plasma_lipids" [ label = "rdfs:subClassOf" ];
+	"base:brain" -> "base:organ" [ label = "rdfs:subClassOf" ];
+	"base:heart" -> "base:organ" [ label = "rdfs:subClassOf" ];
+	"base:fatigue" -> "base:Disease" [ label = "rdfs:subClassOf" ];
+	"base:calcium" -> "base:Plasma_electrolytes" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV)" -> "base:Haematological_parameters" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC)" -> "base:Haematological_parameters" [ label = "rdfs:subClassOf" ];
+	"base:Haematological_parameters" -> "base:Chemical_compound" [ label = "rdfs:subClassOf" ];
+
+}

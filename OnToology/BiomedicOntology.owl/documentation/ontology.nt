@@ -1,0 +1,284 @@
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#HDL-cholesterol
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#HDL-cholesterol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#HDL-cholesterol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#LDL-cholesterol
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#LDL-cholesterol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#LDL-cholesterol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#albumin
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#albumin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#albumin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#bilirubin
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#bilirubin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#bilirubin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#brain
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#brain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#brain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#calcium
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#calcium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#calcium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#cigarette
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#cigarette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#cigarette> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#heart
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#heart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#heart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#individual
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#individual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#potassium
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#potassium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#potassium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#sodium
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#sodium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#sodium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#triglyceride
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#triglyceride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#triglyceride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP)
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST)
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC)
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV)
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters> .
+# 
+# http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB)
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

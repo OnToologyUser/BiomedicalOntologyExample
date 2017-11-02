@@ -1,0 +1,344 @@
+@prefix : <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38> .
+
+<http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes
+:causes rdf:type owl:ObjectProperty ;
+        rdfs:domain :Energy_drink ;
+        rdfs:range :hypertension .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures
+:comparesMeasures rdf:type owl:ObjectProperty ;
+                  rdfs:domain :experiment ;
+                  rdfs:range :group .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy
+:formedBy rdf:type owl:ObjectProperty ;
+          rdfs:domain :group ;
+          rdfs:range :rat .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures
+:hasMeasures rdf:type owl:ObjectProperty ;
+             rdfs:domain :group ;
+             rdfs:range :Haematological_parameters ,
+                        :Plasma_electrolytes ,
+                        :Plasma_lipids ,
+                        :creatinine ,
+                        :liver_function_parameters ,
+                        :urea ,
+                        :uric_acid .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters
+:hasParameters rdf:type owl:ObjectProperty ;
+               rdfs:domain :liver ;
+               rdfs:range :liver_function_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby
+:isComposedby rdf:type owl:ObjectProperty ;
+              rdfs:domain :human ,
+                          :rat ;
+              rdfs:range :organ .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed
+:isFeed rdf:type owl:ObjectProperty ;
+        rdfs:domain :group ;
+        rdfs:range :alcohol ,
+                   :energy_drink ,
+                   :water .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf
+:isMadeOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :energy_drink ;
+          rdfs:range :caffeine ,
+                     :carboydrates ,
+                     :taurine ,
+                     :vitamin .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor
+:isMadefor rdf:type owl:ObjectProperty ;
+           rdfs:domain :experiment ;
+           rdfs:range :human .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces
+:reduces rdf:type owl:ObjectProperty ;
+         rdfs:domain :energy_drink ;
+         rdfs:range :fatigue .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study
+:study rdf:type owl:ObjectProperty ;
+       rdfs:domain :experiment ;
+       rdfs:range :group .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work
+:work rdf:type owl:ObjectProperty ;
+      rdfs:domain :human ;
+      rdfs:range :experiment .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology
+:Biology rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound
+:Chemical_compound rdf:type owl:Class ;
+                   rdfs:subClassOf :Biology .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease
+:Disease rdf:type owl:Class ;
+         rdfs:subClassOf :Medicine .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink
+:Energy_drink rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#HDL-cholesterol
+:HDL-cholesterol rdf:type owl:Class ;
+                 rdfs:subClassOf :Plasma_lipids .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters
+:Haematological_parameters rdf:type owl:Class ;
+                           rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#LDL-cholesterol
+:LDL-cholesterol rdf:type owl:Class ;
+                 rdfs:subClassOf :Plasma_lipids .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine
+:Medicine rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes
+:Plasma_electrolytes rdf:type owl:Class ;
+                     rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids
+:Plasma_lipids rdf:type owl:Class ;
+               rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#albumin
+:albumin rdf:type owl:Class ;
+         rdfs:subClassOf :liver_function_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol
+:alcohol rdf:type owl:Class ;
+         rdfs:subClassOf :drug .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal
+:animal rdf:type owl:Class ;
+        rdfs:subClassOf :Biology .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#bilirubin
+:bilirubin rdf:type owl:Class ;
+           rdfs:subClassOf :liver_function_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#brain
+:brain rdf:type owl:Class ;
+       rdfs:subClassOf :organ .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine
+:caffeine rdf:type owl:Class ;
+          rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#calcium
+:calcium rdf:type owl:Class ;
+         rdfs:subClassOf :Plasma_electrolytes .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates
+:carboydrates rdf:type owl:Class ;
+              rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#cigarette
+:cigarette rdf:type owl:Class ;
+           rdfs:subClassOf :drug .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine
+:creatinine rdf:type owl:Class ;
+            rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug
+:drug rdf:type owl:Class ;
+      rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink
+:energy_drink rdf:type owl:Class ;
+              rdfs:subClassOf :drug .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment
+:experiment rdf:type owl:Class ;
+            rdfs:subClassOf :Medicine .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue
+:fatigue rdf:type owl:Class ;
+         rdfs:subClassOf :Disease .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group
+:group rdf:type owl:Class ;
+       rdfs:subClassOf :organization .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#heart
+:heart rdf:type owl:Class ;
+       rdfs:subClassOf :organ .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human
+:human rdf:type owl:Class ;
+       rdfs:subClassOf :mammal .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension
+:hypertension rdf:type owl:Class ;
+              rdfs:subClassOf :Disease .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#individual
+:individual rdf:type owl:Class ;
+            rdfs:subClassOf :organization .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver
+:liver rdf:type owl:Class ;
+       rdfs:subClassOf :organ .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters
+:liver_function_parameters rdf:type owl:Class ;
+                           rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal
+:mammal rdf:type owl:Class ;
+        rdfs:subClassOf :animal .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ
+:organ rdf:type owl:Class ;
+       rdfs:subClassOf :Biology .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization
+:organization rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#potassium
+:potassium rdf:type owl:Class ;
+           rdfs:subClassOf :Plasma_electrolytes .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat
+:rat rdf:type owl:Class ;
+     rdfs:subClassOf :mammal .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#sodium
+:sodium rdf:type owl:Class ;
+        rdfs:subClassOf :Plasma_electrolytes .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine
+:taurine rdf:type owl:Class ;
+         rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#triglyceride
+:triglyceride rdf:type owl:Class ;
+              rdfs:subClassOf :Plasma_lipids .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea
+:urea rdf:type owl:Class ;
+      rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid
+:uric_acid rdf:type owl:Class ;
+           rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin
+:vitamin rdf:type owl:Class ;
+         rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water
+:water rdf:type owl:Class ;
+       rdfs:subClassOf :Chemical_compound .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)
+: rdf:type owl:Class ;
+  rdfs:subClassOf :liver_function_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alkaline_phosphatase_(ALP)
+: rdf:type owl:Class ;
+  rdfs:subClassOf :liver_function_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#aspartate_transminases_(AST)
+: rdf:type owl:Class ;
+  rdfs:subClassOf :liver_function_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#haemoglobin_concentration_(HBC)
+: rdf:type owl:Class ;
+  rdfs:subClassOf :Haematological_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#packed_cell_vollume_(PCV)
+: rdf:type owl:Class ;
+  rdfs:subClassOf :Haematological_parameters .
+
+
+###  http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#total_white_blood_cell_(TWCB)
+: rdf:type owl:Class ;
+  rdfs:subClassOf :Haematological_parameters .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

@@ -1,0 +1,184 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alanine_transaminase_(ALT)"
+    },
+    "drug" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#drug"
+    },
+    "creatinine" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#creatinine"
+    },
+    "hasMeasures" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasMeasures",
+      "@type" : "@id"
+    },
+    "isFeed" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isFeed",
+      "@type" : "@id"
+    },
+    "liver_function_parameters" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver_function_parameters"
+    },
+    "caffeine" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#caffeine"
+    },
+    "energy_drink" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#energy_drink"
+    },
+    "calcium" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#calcium"
+    },
+    "vitamin" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#vitamin"
+    },
+    "fatigue" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#fatigue"
+    },
+    "group" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#group"
+    },
+    "rat" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#rat"
+    },
+    "reduces" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#reduces",
+      "@type" : "@id"
+    },
+    "water" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#water"
+    },
+    "individual" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#individual"
+    },
+    "Plasma_lipids" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_lipids"
+    },
+    "isMadeOf" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadeOf",
+      "@type" : "@id"
+    },
+    "hasParameters" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hasParameters",
+      "@type" : "@id"
+    },
+    "uric_acid" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#uric_acid"
+    },
+    "animal" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#animal"
+    },
+    "potassium" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#potassium"
+    },
+    "Disease" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Disease"
+    },
+    "albumin" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#albumin"
+    },
+    "Biology" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Biology"
+    },
+    "carboydrates" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#carboydrates"
+    },
+    "isComposedby" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isComposedby",
+      "@type" : "@id"
+    },
+    "causes" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#causes",
+      "@type" : "@id"
+    },
+    "mammal" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#mammal"
+    },
+    "study" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#study",
+      "@type" : "@id"
+    },
+    "Medicine" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Medicine"
+    },
+    "formedBy" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#formedBy",
+      "@type" : "@id"
+    },
+    "brain" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#brain"
+    },
+    "isMadefor" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#isMadefor",
+      "@type" : "@id"
+    },
+    "taurine" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#taurine"
+    },
+    "heart" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#heart"
+    },
+    "experiment" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#experiment"
+    },
+    "Plasma_electrolytes" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Plasma_electrolytes"
+    },
+    "hypertension" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#hypertension"
+    },
+    "HDL-cholesterol" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#HDL-cholesterol"
+    },
+    "LDL-cholesterol" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#LDL-cholesterol"
+    },
+    "organ" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organ"
+    },
+    "work" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#work",
+      "@type" : "@id"
+    },
+    "urea" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#urea"
+    },
+    "liver" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#liver"
+    },
+    "comparesMeasures" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#comparesMeasures",
+      "@type" : "@id"
+    },
+    "Chemical_compound" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Chemical_compound"
+    },
+    "triglyceride" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#triglyceride"
+    },
+    "human" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#human"
+    },
+    "sodium" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#sodium"
+    },
+    "Energy_drink" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Energy_drink"
+    },
+    "bilirubin" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#bilirubin"
+    },
+    "organization" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#organization"
+    },
+    "Haematological_parameters" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#Haematological_parameters"
+    },
+    "alcohol" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#alcohol"
+    },
+    "cigarette" : {
+      "@id" : "http://www.semanticweb.org/pablo/ontologies/2014/0/untitled-ontology-38#cigarette"
+    }
+  }
+}

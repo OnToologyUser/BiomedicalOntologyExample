@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:liver_function_parameters" "base:energy_drink" "base:organ" "base:human" "base:alcohol" "base:caffeine" "base:group" "base:fatigue" "base:hypertension" "base:liver" "base:experiment" "base:Haematological_parameters" "base:rat" ; /*classes style*/
+	"base:energy_drink" -> "base:fatigue" [ label = "base:reduces" ];
+	"base:group" -> "base:alcohol" [ label = "base:isFeed" ];
+	"base:human" -> "base:organ" [ label = "base:isComposedby" ];
+	"base:group" -> "base:rat" [ label = "base:formedBy" ];
+	"base:experiment" -> "base:group" [ label = "base:study" ];
+	"base:group" -> "base:Haematological_parameters" [ label = "base:hasMeasures" ];
+	"base:experiment" -> "base:human" [ label = "base:isMadefor" ];
+	"base:Energy_drink" -> "base:hypertension" [ label = "base:causes" ];
+	"base:experiment" -> "base:group" [ label = "base:comparesMeasures" ];
+	"base:liver" -> "base:liver_function_parameters" [ label = "base:hasParameters" ];
+	"base:human" -> "base:experiment" [ label = "base:work" ];
+	"base:energy_drink" -> "base:caffeine" [ label = "base:isMadeOf" ];
+
+}
